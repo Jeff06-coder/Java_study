@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+#Permitir arquivos de codigos fontes
+!*.java
+
 # Log file
 *.log
 
