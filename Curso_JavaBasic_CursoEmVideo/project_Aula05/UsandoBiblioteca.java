@@ -1,4 +1,4 @@
-package projectAula05;
+package project_aula05;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
