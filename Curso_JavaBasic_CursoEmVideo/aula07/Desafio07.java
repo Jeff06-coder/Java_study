@@ -64,6 +64,10 @@ public class Desafio07 {
                 
 
         } // fim do switch
+
+        // Para colocar dois resultados decimais, usamos o printf na mesma linha do System.out, é necessário colocar os resultados tudo no final, para sair na linha de código
+        //e a ordem é definida pela colocação crescente, sao colocados na ordem dos '%.f' que aparecem na frase.Os valores são substituídos na ordem crescente quando sair o código executado.
+        System.out.printf("Alem disso, seu número ao cubo é %.2f e a raiz quadrada é %.2f", Math.pow(operacao, 3), Math.sqrt(operacao));
         
     }
 }
